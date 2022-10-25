@@ -119,6 +119,9 @@ resources: {}
 # - external
 tls: ingress
 
+service:
+  extraAnnotations: {}
+
 systemDefaultRegistry: ""
 
 # Set to use the packaged system charts
